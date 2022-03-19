@@ -1,0 +1,28 @@
+﻿<Window x:Class="LAB1SEM2_NOTEBOOK.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LAB1SEM2_NOTEBOOK"
+        mc:Ignorable="d"
+        Title="Info" Height="200" Width="250"  ResizeMode="NoResize">
+
+    <Grid Name="infoGrid">
+        <Canvas Margin="10">
+            <Image Source="/Resourses/icon_note.png" HorizontalAlignment="Left" VerticalAlignment="Center" Height="55" Width="47" Canvas.Top="-2" Canvas.Left="8" />
+
+
+            <TextBlock FontFamily="Bauhaus 93" FontSize="32" FontStyle="Normal" FontStretch="Condensed" FontWeight="Regular" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Canvas.Left="74" Canvas.Top="10" Text="Notepad- -" />
+            <TextBlock FontFamily="Bookman Old Style" Canvas.Left="11" Canvas.Top="76" Height="55" Width="202" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center">
+                Info:<LineBreak/>
+                <LineBreak/>
+                Created => Semyon Tsyganov
+                <LineBreak/>
+                Group => <Underline>2211121</Underline>
+            </TextBlock>
+            
+
+        </Canvas>
+
+    </Grid>
+</Window>
